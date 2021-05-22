@@ -131,3 +131,12 @@ body {
     color: white;
     padding-bottom: 10px;
   }
+
+@media screen and (max-width:500px){
+  .svg-top-pattern{
+    display:hidden;
+  }
+  .bg-bottom-pattern{
+    display:hidden;
+  }
+}
