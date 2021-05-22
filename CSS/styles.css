@@ -116,7 +116,7 @@ body {
 .bg-bottom-pattern {
 
   position: absolute;
-  bottom: -50%;
+  bottom: -60%;
   right: -22%;
   z-index: 0;
 }
