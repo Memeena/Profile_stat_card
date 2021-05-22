@@ -1,0 +1,130 @@
+body {
+  background-color: hsl(229, 23%, 23%);
+}
+
+.profile-main {
+  padding: 10%;
+  margin: 0;
+  background-color: hsl(185, 75%, 39%);
+  z-index: -1;
+}
+
+.profile-card {
+  background-color: white;
+  font-family: "Kumbh Sans", sans-serif;
+  text-align: center;
+  width: 21.9rem;
+  margin: auto;
+  border-radius: 10px 10px;
+  z-index: 1;
+}
+
+.prof-svg-bg {
+  display: block;
+  border-radius: 10px 10px 0 0;
+}
+.item-dummy {
+  padding-top: 50px;
+  border: none;
+}
+.victor-img {
+  border-radius: 50%;
+  position: absolute;
+  width: 40%;
+  top: 4.3rem;
+  left: 6.2rem;
+  border: 5px solid white;
+  display: block;
+  z-index: 1;
+}
+.profile-text-details{
+  padding: 0;
+  list-style-type: none;
+}
+.profile-details {
+  text-align: center;
+}
+
+.prof-name {
+  display: inline-block;
+  font-size: 18px;
+  font-weight: 700;
+  color: hsl(227, 10%, 46%);
+  padding-left: 10px;
+  margin-bottom: 0;
+}
+
+.prof-age {
+  display: inline;
+  padding-left: 10px;
+  color: hsl(0, 0%, 59%);
+  font-weight: 400;
+}
+
+.prof-place {
+  color: hsl(0, 0%, 59%);
+  font-weight: 400;
+  margin-top: 10px;
+}
+
+.line-breaker {
+  border-color: hsl(0, 0%, 59%, 0.2);
+  border-bottom: 0;
+}
+
+.prof-stats {
+  margin: auto;
+}
+
+.stat-list {
+  list-style: none;
+  display: flex;
+  padding: 0;
+}
+
+.list-item {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.2;
+  text-align: center;
+  padding: 15px 30px 15px;
+}
+
+.list-item:first-child {
+  padding-left: 0;
+}
+
+.list-span {
+  font-size: 10px;
+  letter-spacing: 1px;
+  color: hsl(0, 0%, 59%);
+  font-weight: 400;
+}
+
+.item1 {
+  padding-top: 0;
+}
+
+.svg-top-pattern {
+  position: absolute;
+  top: -300px;
+  left: -50px;
+  height: 700px;
+  width: 700px;
+}
+
+.bg-bottom-pattern {
+
+  position: absolute;
+  bottom: -50%;
+  right: -8%;
+  z-index: 0;
+}
+
+.attribution {
+    font-family: 'Kumbh sans', sans-serif;
+    width: 50%;
+    margin: 0 auto;
+    color: white;
+    padding-bottom: 10px;
+  }
