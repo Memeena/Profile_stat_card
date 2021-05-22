@@ -1,5 +1,6 @@
 body {
   background-color: hsl(229, 23%, 23%);
+  overflow:hidden;
 }
 
 .profile-main {
